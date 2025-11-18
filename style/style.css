@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f8f6;
+  background-image: url("/src/background.png");
+}
+button {
+  display: flex;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
+  justify-self: center;
+  margin: 5px;
+}
+
+img {
+  z-index: 1;
+  margin-left: 950px;
+  display: flex;
+}
+.main-container {
+  margin-top: 30px;
+  width: 800px;
+  height: 200px;
+  justify-items: center;
+  margin-left: 330px;
+  margin-bottom: 30px;
+}
+
+.headingTitle {
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Beth Ellen", cursive;
+  margin-bottom: -20px;
+  font-style: normal;
+}
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+#addQuote-container {
+  display: none;
+}
+#text {
+  font-style: italic;
+  font-size: 25px;
+}
+input {
+  border-radius: 15px;
+  border: none;
+  background-color: whitesmoke;
+  padding: 8px 25px;
+  background-color: #d9cfc7;
+}
